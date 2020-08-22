@@ -11,6 +11,14 @@ App in flutter for read and store qr, barcodes ...
 - launch search on google of text
 
 ## Preview
+<img src="https://raw.githubusercontent.com/yaderson/qr_readerAPP/master/assets/preview/splash.png" width="200" align=center /> <img src="https://raw.githubusercontent.com/yaderson/qr_readerAPP/master/assets/preview/addres.png" width="200" align=center /> <img src="https://raw.githubusercontent.com/yaderson/qr_readerAPP/master/assets/preview/map.png" width="200" align=center /> <img src="https://raw.githubusercontent.com/yaderson/qr_readerAPP/master/assets/preview/maps_geo.png" width="200" align=center /> 
+
+<img src="https://raw.githubusercontent.com/yaderson/qr_readerAPP/master/assets/preview/qr_camera.png" width="200" align=center />
+
+
+
+
+
 
 ## Getting Started
 
