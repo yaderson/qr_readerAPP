@@ -1,6 +1,16 @@
 # qr_readerapp
 
-A new Flutter project.
+App in flutter for read and store qr, barcodes ...
+
+## Functionalities
+
+- add new scan
+- show scans by type
+- see map when input contain geoloc
+- launch address in navigator 
+- launch search on google of text
+
+## Preview
 
 ## Getting Started
 
