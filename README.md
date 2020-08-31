@@ -16,7 +16,11 @@ App in flutter for read and store qr, barcodes ...
 <img src="https://raw.githubusercontent.com/yaderson/qr_readerAPP/master/assets/preview/qr_camera.png" width="200" align=center />
 
 
+## Featured **vesion 1.2.0**
 
+Copy to clipboard in addres tab
+1. Fix some Bugs
+2. Add copy to clipboard when long press scan, in address tab
 
 
 

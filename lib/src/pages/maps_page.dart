@@ -30,7 +30,10 @@ class MapsPage extends StatelessWidget {
             itemBuilder: (context, i) => Dismissible(
               key: UniqueKey(),
               background: Container(
-                color: Colors.red,
+                color: Colors.deepPurple,
+                child: ListTile(
+                  leading: Icon(Icons.delete, color: Colors.white,),
+                ),
               ),
               onDismissed: (direction) => scansBloc.deleteScan(scans[i].id),
               child: ListTile(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:qr_readerapp/src/bloc/scans_bloc.dart';
 import 'package:qr_readerapp/src/models/scan_model.dart';
 import 'package:qr_readerapp/src/utils/utiils.dart' as utils;
@@ -9,7 +10,9 @@ class AddresPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     scansBloc.getScans();
+    final scaffoldKey = GlobalKey<ScaffoldState>();
     return Scaffold(
+      key: scaffoldKey,
       body: StreamBuilder<List<ScanModel>>(
         stream: scansBloc.scansStreamHttp ,
         builder: (BuildContext context, AsyncSnapshot<List<ScanModel>> snapshot) {
@@ -42,6 +45,12 @@ class AddresPage extends StatelessWidget {
                 leading: Icon(Icons.cloud_queue, color: Theme.of(context).primaryColor,),
                 title: Text(scans[i].value),
                 trailing: Icon(Icons.keyboard_arrow_right, color: Colors.grey,),
+                onLongPress: (){
+                  Clipboard.setData(ClipboardData(text: scans[i].value));
+                  scaffoldKey.currentState.showSnackBar(
+                    SnackBar(content: Text('Copied to Clipboard'), backgroundColor: Colors.deepPurple,)
+                  );
+                },
               ),
             )
           );

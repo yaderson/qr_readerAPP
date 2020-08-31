@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
     }
     print('Future String ${futureStrig.rawContent}');
 
-    if(futureStrig != null) {
+    if(futureStrig.rawContent != "") {
       print('We have information');
       final scan = ScanModel(value: futureStrig.rawContent);
       scanBloc.addScan(scan);
