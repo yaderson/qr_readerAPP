@@ -9,6 +9,7 @@ App in flutter for read and store qr, barcodes ...
 - see map when input contain geoloc
 - launch address in navigator 
 - launch search on google of text
+- copy scans
 
 ## Preview
 <img src="https://raw.githubusercontent.com/yaderson/qr_readerAPP/master/assets/preview/splash.png" width="200" align=center /> <img src="https://raw.githubusercontent.com/yaderson/qr_readerAPP/master/assets/preview/addres.png" width="200" align=center /> <img src="https://raw.githubusercontent.com/yaderson/qr_readerAPP/master/assets/preview/map.png" width="200" align=center /> <img src="https://raw.githubusercontent.com/yaderson/qr_readerAPP/master/assets/preview/maps_geo.png" width="200" align=center /> 
@@ -16,9 +17,7 @@ App in flutter for read and store qr, barcodes ...
 <img src="https://raw.githubusercontent.com/yaderson/qr_readerAPP/master/assets/preview/qr_camera.png" width="200" align=center />
 
 
-## Featured **vesion 1.2.0**
-
-Copy to clipboard in addres tab
+## New Features **version 1.2.0**
 1. Fix some Bugs
 2. Add copy to clipboard when long press scan, in address tab
 
